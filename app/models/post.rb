@@ -9,7 +9,7 @@ class Post < ActiveRecord::Base
 
   def useless_method
     if Time.now.monday?
-      "Oh no it's monday"
+      "Oh no it's actually monday"
     else
       title
     end
