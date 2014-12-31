@@ -3,5 +3,3 @@ class AlsoBadController < ApplicationController
     params[:whatever].to_sym
   end
 end
-
-
